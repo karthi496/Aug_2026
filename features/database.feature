@@ -4,8 +4,7 @@ Scenario: Login with credentials
 Given User enters the login details
 |username|password|
 |karthikayani|S51ZN2|
-
-#changes2
+#changes
 #changes
 @rowshash
 Scenario: Login with credentials with rowHash
