@@ -1,0 +1,9 @@
+#Dependencies
+node_module
+#Environment
+.env
+#Allure reports
+allure-report
+allure-results
+#readme
+readme.md

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es2020",
+    "types": ["node", "@cucumber/cucumber"],
+    "strict": true,
+    "esModuleInterop": true
+  },
+  
+}

@@ -1,0 +1,28 @@
+{
+  "name": "cucumber-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:smoke": "cucumber-js --tags @smoke_test",
+    "test:data_table": "cucumber-js --tags @rows",
+    "test:headed": "cucumber-js",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "test:allure": "npm test && npm run allure:generate && npm run allure:open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2",
+    "allure-commandline": "^2.46.1",
+    "allure-cucumberjs": "^3.12.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
