@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js",
-    "test:smoke": "cucumber-js --tags @smoke_test",
-    "test:data_table": "cucumber-js --tags @rows",
+    "test:smoke": "cucumber-js --tags @smoke",
+    "test:data_table": "cucumber-js --tags @hashes",
     "test:headed": "cucumber-js",
     "allure:generate": "allure generate allure-results --clean -o allure-report",
     "allure:open": "allure open allure-report",
