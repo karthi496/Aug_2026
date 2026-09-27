@@ -1,4 +1,4 @@
-@smoke
+@smoke_test
 Feature: login functionality
 
     Background: Given user launch the application
